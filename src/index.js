@@ -64,7 +64,7 @@ function checkPasswordsMatch(input1, input2) {
 // get fieldname 
 function getFieldName(input) {
     return
-    // the function make the first character uppercase and take the part of the string with slice
+    // the function make the first character uppercase and take name of the id with slice command.
     input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
